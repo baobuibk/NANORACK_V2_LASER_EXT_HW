@@ -2,8 +2,38 @@
 FileName = LASER_EXT_V1.1.0.GBR
 AutoAperture = True
 *************************************************************
+Generating : Bottom Solder
+      File : LASER_EXT_V1.1.0_Soldermask_Bot.gbr
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+*************************************************************
+
+*************************************************************
 Generating : Top Layer
-      File : LASER_EXT_V1.1.0.GTL
+      File : LASER_EXT_V1.1.0_Copper_Signal_Top.gbr
 
     Adding Layer      : Top Layer
 
@@ -11,7 +41,7 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D21
+    D13
     D22
     D23
     D24
@@ -24,19 +54,8 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Keep-Out Layer
-      File : LASER_EXT_V1.1.0.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
-    D53
-*************************************************************
-
-*************************************************************
 Generating : Top Overlay
-      File : LASER_EXT_V1.1.0.GTO
+      File : LASER_EXT_V1.1.0_Legend_Top.gbr
 
     Adding Layer      : Top Overlay
 
@@ -48,47 +67,8 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Pad Master
-      File : LASER_EXT_V1.1.0.GPT
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D28
-    D29
-    D30
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : LASER_EXT_V1.1.0.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-*************************************************************
-
-*************************************************************
 Generating : Bottom Layer
-      File : LASER_EXT_V1.1.0.GBL
+      File : LASER_EXT_V1.1.0_Copper_Signal_Bot.gbr
 
     Adding Layer      : Bottom Layer
 
@@ -97,7 +77,7 @@ Generating : Bottom Layer
 
 Used DCodes :
     D11
-    D21
+    D13
     D22
     D23
     D24
@@ -121,8 +101,31 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Top Solder
+      File : LASER_EXT_V1.1.0_Soldermask_Top.gbr
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+*************************************************************
+
+*************************************************************
 Generating : Bottom Pad Master
-      File : LASER_EXT_V1.1.0.GPB
+      File : LASER_EXT_V1.1.0_Pads_Bot.gbr
 
     Adding Layer      : Bottom Layer
 
@@ -146,59 +149,8 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Solder
-      File : LASER_EXT_V1.1.0.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : LASER_EXT_V1.1.0.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-*************************************************************
-
-*************************************************************
 Generating : Top Paste
-      File : LASER_EXT_V1.1.0.GTP
+      File : LASER_EXT_V1.1.0_Paste_Top.gbr
 
     Adding Layer      : Top Paste
 
@@ -211,8 +163,58 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Bottom Paste
+      File : LASER_EXT_V1.1.0_Paste_Bot.gbr
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : LASER_EXT_V1.1.0_Pads_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D28
+    D29
+    D30
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : LASER_EXT_V1.1.0_Keep-out.gbr
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D53
+*************************************************************
+
+*************************************************************
 Generating : Bottom Overlay
-      File : LASER_EXT_V1.1.0.GBO
+      File : LASER_EXT_V1.1.0_Legend_Bot.gbr
 
     Adding Layer      : Bottom Overlay
 
@@ -227,38 +229,11 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Drill Drawing
-      File : LASER_EXT_V1.1.0.GD1
-
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Drawing
-
-
-Used DCodes :
-    D50
-    D54
-*************************************************************
-
-*************************************************************
-Generating : Drill Guide
-      File : LASER_EXT_V1.1.0.GG1
-
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Guide
-
-
-Used DCodes :
-    D50
-*************************************************************
-
-*************************************************************
 Generating : Profile
-      File : LASER_EXT_V1.1.0.GM
+      File : LASER_EXT_V1.1.0_Profile.gbr
 
 
 Used DCodes :
-    D55
+    D54
 *************************************************************
 
