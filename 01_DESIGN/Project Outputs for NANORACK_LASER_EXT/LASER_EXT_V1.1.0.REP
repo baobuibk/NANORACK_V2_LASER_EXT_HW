@@ -2,30 +2,39 @@
 FileName = LASER_EXT_V1.1.0.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Pad Master
-      File : LASER_EXT_V1.1.0_Pads_Bot.gbr
+Generating : Top Layer
+      File : LASER_EXT_V1.1.0_Copper_Signal_Top.gbr
 
-    Adding Layer      : Bottom Layer
+    Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D11
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
     D28
     D29
     D30
     D31
     D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : LASER_EXT_V1.1.0_Keep-out.gbr
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D64
 *************************************************************
 
 *************************************************************
@@ -37,6 +46,23 @@ Generating : Top Overlay
 
 Used DCodes :
     D10
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : LASER_EXT_V1.1.0_Pads_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D28
+    D29
+    D30
+    D31
+    D32
 *************************************************************
 
 *************************************************************
@@ -61,64 +87,6 @@ Used DCodes :
     D40
     D41
     D42
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : LASER_EXT_V1.1.0_Legend_Bot.gbr
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D21
-    D59
-    D60
-    D61
-    D62
-    D63
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : LASER_EXT_V1.1.0_Paste_Top.gbr
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : LASER_EXT_V1.1.0_Pads_Top.gbr
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D28
-    D29
-    D30
-    D31
-    D32
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : LASER_EXT_V1.1.0_Keep-out.gbr
-
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
-    D64
 *************************************************************
 
 *************************************************************
@@ -160,28 +128,30 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : LASER_EXT_V1.1.0_Copper_Signal_Top.gbr
+Generating : Bottom Pad Master
+      File : LASER_EXT_V1.1.0_Pads_Bot.gbr
 
-    Adding Layer      : Top Layer
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D11
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
     D28
     D29
     D30
     D31
     D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
 *************************************************************
 
 *************************************************************
@@ -239,6 +209,36 @@ Used DCodes :
     D56
     D57
     D58
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : LASER_EXT_V1.1.0_Paste_Top.gbr
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : LASER_EXT_V1.1.0_Legend_Bot.gbr
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D21
+    D59
+    D60
+    D61
+    D62
+    D63
 *************************************************************
 
 *************************************************************
